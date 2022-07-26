@@ -1,0 +1,25 @@
+.app__keyfeatures-h1 {
+    font-family: var(--font-base);
+    color: var(--color-white);
+    letter-spacing: 0.04em;    
+    line-height: 100px;
+    font-size: 70px;
+    text-align: left;
+}
+
+.app__wrapper_img img {
+    width: 80%;
+    margin: 2rem 2rem;
+}
+
+.app__wrapper_img2 img {
+    width: 80%;
+    margin: 2rem 2rem;
+}
+
+.app__keyfeatures-bottom img {
+    position: absolute;
+    width: 1473px;
+    height: 114px;
+    margin: 0 2rem;
+}

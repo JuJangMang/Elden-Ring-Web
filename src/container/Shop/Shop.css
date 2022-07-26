@@ -1,0 +1,18 @@
+.app__shop-bottom img {
+    position: absolute;
+    width: 1473px;
+    height: 114px;
+    margin: 0 2rem;
+}
+
+.app__shop-content button {
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 1900px) {
+    
+}
+
+@media screen and (max-width: 450px) {
+    
+}
