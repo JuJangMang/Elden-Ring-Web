@@ -10,7 +10,7 @@ const KeyFeatures = () => (
       <div className="key__features-1">
         <div className="app__wrapper_info">
           <h1 className="app__keyfeatures-h1">A New Fantasy World</h1>
-          <p className="p__cormorant" style={{ margin: '2rem 0' }}>Journey through the Lands Between, 
+          <p className="p__cormorant" style={{ margin: '2rem 0', color: '#DCCA87' }}>Journey through the Lands Between, 
             a new fantasy world created by Hidetaka Miyazaki, 
             creator of the influential DARK SOULS video game series, 
             and George R. R. Martin, author of The New York Times best-selling fantasy series, A Song of Ice and Fire. 
@@ -30,7 +30,7 @@ const KeyFeatures = () => (
         </div>
         <div className="container">
           <h1 className="app__keyfeatures-h2">World Exploration in the Lands Between</h1>
-          <p className="p__cormorant" style={{ margin: '2rem 0' }}>ELDEN RING features vast fantastical landscapes and shadowy, 
+          <p className="p__cormorant" style={{ margin: '2rem 0', color: '#DCCA87' }}>ELDEN RING features vast fantastical landscapes and shadowy, 
             complex dungeons that are connected seamlessly.
             Traverse the breathtaking world on foot or on horseback, 
             alone or online with other players, and fully immerse yourself in the grassy plains, 
