@@ -29,8 +29,8 @@
 .app__awards-bottom img {
     position: absolute;
     justify-content: center;
-    width: 1473px;
-    height: 114px;
+    /* width: 1473px;
+    height: 114px; */
     margin: 2rem 2rem;
     
 }

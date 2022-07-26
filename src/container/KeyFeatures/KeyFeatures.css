@@ -30,19 +30,23 @@
     position: relative;
 } 
 
-.app__keyfeatures-bottom img{
-    justify-content: center;
-    align-content: center;
-    transform: translate(10%, 0%);
+.app__keyfeatures-bottom img {
+    transform: translate(15%, 0%);
     margin-top: 4rem; 
-    width: 1473px;
-    height: 114px;
+    /* width: 1473px;
+    height: 114px; */
 }
 
 .main__heading {
-    justify-content: center;
-    align-content: center;
-    left: 50%; 
-    transform: translate(200%, 0%);  
-    
+    position: relative;
+    left: 40%; 
+    top: 0;
+}
+
+.key__features-1 {
+    display: flex;
+}
+
+.key__features-2 {
+    display: flex;
 }
