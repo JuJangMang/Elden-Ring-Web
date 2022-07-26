@@ -6,7 +6,7 @@ import './KeyFeatures.css';
 const KeyFeatures = () => (
   <div className="app__bg app__wrapper section__padding" id="keyfeatures">
     <div className="app__wrapper_info">
-      <h1 className="headtext__cormorant flex__center">Key Features</h1>
+      <h1 className="main__heading headtext__cormorant flex__center">Key Features</h1>
       <div className="app__wrapper_info">
         <h1 className="app__keyfeatures-h1">A New Fantasy World</h1>
         <p className="p__cormorant" style={{ margin: '2rem 0' }}>Journey through the Lands Between, a new fantasy world created by Hidetaka Miyazaki, creator of the influential DARK SOULS video game series, and George R. R. Martin, author of The New York Times best-selling fantasy series, A Song of Ice and Fire. 
@@ -19,10 +19,6 @@ Unravel the mysteries of the Elden Ring’s power. Encounter adversaries with pr
         <img src={images.world} alt="world" />
       </div> 
 
-      <div className="app__wrapper_img2">
-        <img src={images.explore} alt="explore" />
-      </div> 
-
       <div className="app__wrapper_info">
         <h1 className="app__keyfeatures-h2">World Exploration in the Lands Between</h1>
         <p className="p__cormorant" style={{ margin: '2rem 0' }}>ELDEN RING features vast fantastical landscapes and shadowy, complex dungeons that are connected seamlessly.
@@ -30,7 +26,9 @@ Unravel the mysteries of the Elden Ring’s power. Encounter adversaries with pr
 
 Traverse the breathtaking world on foot or on horseback, alone or online with other players, and fully immerse yourself in the grassy plains, suffocating swamps, spiraling mountains, foreboding castles and other sites of grandeur on a scale never seen before in a FromSoftware title.</p>
       </div>
-
+      <div className="app__wrapper_img2">
+        <img src={images.explore} alt="explore" />
+      </div> 
       <div className="app__keyfeatures-bottom flex__center" >
           <img src={images.border} alt="border" />
       </div>

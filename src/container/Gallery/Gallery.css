@@ -95,10 +95,12 @@
 }
 
 .app__gallery-bottom img {
-    position: absolute;
+    position: relative;
     width: 1473px;
     height: 114px;
-    margin: 0 2rem;
+    /* margin: 0 2rem; */
+    /* bottom: 0; */
+    margin-top: auto;
 }
 
 @media screen and (min-width: 2000px) {

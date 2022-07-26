@@ -4,7 +4,7 @@
 }
 
 .app__awards-overlay img {
-    width: 1583px;
+    width: 1473px;
     height: 299px;
     margin: 4rem 2rem;
 }
@@ -28,8 +28,13 @@
 
 .app__awards-bottom img {
     position: absolute;
-    justify-content:center;
+    justify-content: center;
     width: 1473px;
     height: 114px;
-    margin: 0 2rem;
+    margin: 2rem 2rem;
+    
+}
+
+.app__awards-content {
+    flex-direction: column;
 }

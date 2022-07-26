@@ -41,10 +41,11 @@ const Gallery = () => {
           <BsArrowRightShort className="gallery__arrow-icon" onClick={() => scroll('right')} />
         </div>
 
-        <div className="app__gallery-bottom flex__center" >
+        
+      </div>
+      <div className="app__gallery-bottom flex__center" >
          <img src={images.border} alt="border" />
         </div> 
-      </div>
     </div>
   );
 }
