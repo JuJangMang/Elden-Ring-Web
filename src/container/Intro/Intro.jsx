@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { BsFillPlayFill, BsPauseFill } from 'react-icons/bs';
-import { MdVideoCameraFront } from 'react-icons/md';
 import { trailer } from '../../constants';
 
 import './Intro.css';
@@ -27,7 +26,7 @@ const Intro = () => {
         ref={vidRef}
         type="video/mp4"
         loopcontrols={false}
-        muted
+        muted={false}
       />
       <div className="app__video-overlay flex__center">
         <div 

@@ -4,12 +4,11 @@ import { images } from '../../constants';
 import './Shop.css';
 
 const Shop = () => (
-  <div className="app__bg app__wrapper section__padding" id="shop">
-    <div className="app__wrapper_info">
+  <div className="app__shop app__bg app__wrapper section__padding" id="shop">
+    
       <h1 className="headtext__cormorant">Shop Now</h1>      
-    </div>
-
-    <div className="app__wrapper_img">
+    
+    <div className="app__shop_img flex__center">
       <img src={images.shop} alt="shop"/>
     </div>
 

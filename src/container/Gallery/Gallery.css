@@ -96,9 +96,7 @@
 
 .app__gallery-bottom img {
     position: absolute;
-    width: 1473px;
-    height: 114px;
-    margin: 0 2rem;
+    margin-top: 2rem;
 }
 
 @media screen and (min-width: 2000px) {

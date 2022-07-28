@@ -1,10 +1,13 @@
-.app__aboutus-overlay {
-    position: absolute;
-    inset: 0;
+.app__awards {
+    position: relative;
+}
+
+.app__awards-content {
+    flex-direction: column;
 }
 
 .app__awards-overlay img {
-    width: 1583px;
+    width: 1473px;
     height: 299px;
     margin: 4rem 2rem;
 }
@@ -28,8 +31,5 @@
 
 .app__awards-bottom img {
     position: absolute;
-    justify-content:center;
-    width: 1473px;
-    height: 114px;
-    margin: 0 2rem;
+    margin-top: 2rem;
 }

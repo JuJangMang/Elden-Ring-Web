@@ -1,5 +1,5 @@
 import React from 'react';
-import { BsInstagram, BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
+import { BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
 
 import { images } from '../../constants';
 import './Gallery.css';
@@ -31,20 +31,18 @@ const Gallery = () => {
         <div className="app__gallery-images_container" ref={scrollRef}>
           {galleryImages.map((image, index) => (
             <div className="app__gallery-images_card flex__center" key={'gallery_image-${index + 1}'}>
-              <img src={image} alt="gallery" />
-              <BsInstagram className="gallery__image-icon" />
+              <img src={image} alt="gallery" />              
             </div>
           ))}
         </div>
         <div className="app__gallery-images_arrows">
           <BsArrowLeftShort className="gallery__arrow-icon" onClick={() => scroll('left')} />
           <BsArrowRightShort className="gallery__arrow-icon" onClick={() => scroll('right')} />
-        </div>
-
-        <div className="app__gallery-bottom flex__center" >
+        </div>        
+      </div>
+      <div className="app__gallery-bottom flex__center" >
          <img src={images.border} alt="border" />
         </div> 
-      </div>
     </div>
   );
 }

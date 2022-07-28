@@ -16,7 +16,7 @@ const Navbar = () => {
       <ul className="app__navbar-links">
         <li className="p__opensans"><a href="#home">Home</a></li>
         <li className="p__opensans"><a href="#keyfeatures">Key Features</a></li>
-        <li className="p__opensans"><a href="#editions">Editions</a></li>
+        <li className="p__opensans"><a href="#shop">Shop</a></li>
         <li className="p__opensans"><a href="#requirements">Requirements</a></li>
       </ul>     
       <div className="app__navbar-smallscreen">
@@ -27,7 +27,7 @@ const Navbar = () => {
               <ul className="app__navbar-smallscreen_links">
                 <li className="p__opensans"><a href="#home">Home</a></li>
                 <li className="p__opensans"><a href="#keyfeatures">Key Features</a></li>
-                <li className="p__opensans"><a href="#editions">Editions</a></li>
+                <li className="p__opensans"><a href="#shop">Shop</a></li>
                 <li className="p__opensans"><a href="#requirements">Requirements</a></li>                
               </ul>
             </div>

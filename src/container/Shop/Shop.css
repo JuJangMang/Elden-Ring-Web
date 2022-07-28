@@ -1,12 +1,15 @@
+.app__shop {
+    flex-direction: column;
+    position: relative;
+}
+
 .app__shop-bottom img {
     position: absolute;
-    width: 1473px;
-    height: 114px;
-    margin: 0 2rem;
+    margin-top: 2rem;
 }
 
 .app__shop-content button {
-    margin-top: 1rem;
+    margin-top: 0rem;
 }
 
 @media screen and (min-width: 1900px) {
