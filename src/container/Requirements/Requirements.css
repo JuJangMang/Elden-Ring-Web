@@ -28,7 +28,7 @@
 .app__requirments_rec-specs {
     margin: 4rem 5rem;
 }
-
+ 
 .app__requirements_min-h1, 
 .app__requirements_rec-h1 {
     font-family: var(--font-base);
@@ -48,9 +48,13 @@
 }
 
 @media screen and (max-width: 1150px) {
-    
+    .requirements {
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 650px) {
-    
+    .requirements {
+        flex-direction: column;
+    }
 }

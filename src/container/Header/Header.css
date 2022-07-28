@@ -1,5 +1,6 @@
 .app__header {
-    position: relative
+    position: relative;
+    z-index: 1;
 }
 
 .app__header-h1 {
@@ -19,6 +20,46 @@
 
 .app__header-bottom img {
     position: absolute;
-    bottom: -50px;
+    bottom: -40px;
     left: 15%;
+}
+
+@media screen and (max-width: 2000px) {
+
+}
+
+@media screen and (max-width: 1150px) {
+    .app__header {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .app__header-h1 {
+        margin-left: 0;
+    }
+
+    .app__header-bottom img{
+        position: absolute;
+        left: 0;
+        bottom: 10px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__header {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .app__header-h1 {
+        margin-left: 0;
+    }
+
+    .app__header-bottom img {
+        position: absolute;
+        left: 0%;
+        bottom: 10px;
+        width: 100%;
+    }
 }

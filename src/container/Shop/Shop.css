@@ -27,10 +27,29 @@
 
 
 
-@media screen and (min-width: 1900px) {
+@media screen and (min-width: 2000px) {
     
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 1150px) {
+    .app__shop-bottom img {
+        position: relative;
+        bottom: -50px;
+        width: 118%;
+    }
     
+}
+
+@media screen and (max-width: 650px) {
+    .shop_img img {
+        position: relative;
+        transform: translate(0%, 0);
+        width: 100%;
+    }
+
+    .app__shop-bottom img {
+        position: relative;
+        bottom: -50px;
+        width: 118%;
+    }
 }

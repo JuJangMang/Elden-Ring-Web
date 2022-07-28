@@ -9,7 +9,7 @@
     flex-direction: column;
 
     background: var(--color-black);
-    padding-top: 0;
+    padding-top: 0; 
 }
 
 .app__footer_logo img {
@@ -31,11 +31,27 @@
         margin: 2rem 0;
         width: 100%
     }
+
+    .app__footer_logo img {
+        display: flex;
+        width: 100%;
+        position: relative;
+        right: 1rem;
+
+    }
 }
 
 @media screen and (max-width: 650px) {
     .app__footer {
         padding: 0 0 2rem 0;
+    }
+
+    .app__footer_logo img {
+        display: flex;
+        width: 100%;
+        position: relative;
+        right: 1rem;
+
     }
 }
 
