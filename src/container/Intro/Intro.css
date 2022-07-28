@@ -41,4 +41,22 @@
     justify-content: center;
 }
 
+@media screen and (max-width: 2000px) {
+
+}
+
+@media screen and (max-width: 1150px) {
+    
+}
+
+@media screen and (max-width: 650px) {
+    .elden__video iframe {
+        width: 280px;
+        height: 260px;
+
+        /* margin-top: 2rem; */
+        
+    }
+}
+
 

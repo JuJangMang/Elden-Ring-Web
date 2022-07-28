@@ -48,7 +48,7 @@ import './Intro.css';
 const Intro = () => (
   <div className="container">
       <div className="elden__video">
-      <iframe width="1268" height="713" src="https://www.youtube.com/embed/K_03kFqWfqs" title="ELDEN RING - Story Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="1268" height="713" src="https://www.youtube.com/embed/K_03kFqWfqs" title="ELDEN RING - Story Trailer" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
       
     </div>
   </div>

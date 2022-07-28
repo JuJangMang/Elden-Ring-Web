@@ -41,8 +41,9 @@ const KeyFeatures = () => (
 
       <div className="app__keyfeatures-bottom flex__center" >
           <img src={images.border} alt="border" />
-      </div>
     </div>
+    </div>
+    
   </div>
 );
 

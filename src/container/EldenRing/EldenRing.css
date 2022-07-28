@@ -6,3 +6,18 @@
     size: cover;
     width: 100%;
 }
+
+/* @media screen and (max-width: 1150px) {
+    .app__eldenring {
+        width: auto;
+    }
+
+    .app__eldenring-overlay img {
+        size: cover;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    
+} */

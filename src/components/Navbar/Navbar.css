@@ -102,9 +102,10 @@
 @media screen and (max-width: 650px) {
     .app__navbar {
         padding: 1rem;
+        position: relative;
     } 
         
-    app__navbar-logo img {
+    .app__navbar-logo img {
         width: 110px;
     }
 }
