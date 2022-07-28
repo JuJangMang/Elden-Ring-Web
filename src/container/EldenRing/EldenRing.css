@@ -1,4 +1,8 @@
+.app__eldenring {
+    background: black
+}
+
 .app__eldenring-overlay img {
-    position: center;
     size: cover;
+    width: 100%;
 }

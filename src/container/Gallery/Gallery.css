@@ -47,14 +47,14 @@
     margin-right: 2rem;
 }
 
-.gallery__image-icon {
+/* .gallery__image-icon {
     position: absolute;
     color: #fff;
     font-size: 2rem;
     opacity: 0.5;
     transition: 0.5s ease;
     cursor: pointer;
-}
+} */
 
 .app__gallery-images_card img {
     width: 100%;
@@ -95,8 +95,10 @@
 }
 
 .app__gallery-bottom img {
-    position: absolute;
-    margin-top: 2rem;
+    position: relative;
+    /* margin: 0 2rem; */
+    /* bottom: 0; */
+    margin-top: auto;
 }
 
 @media screen and (min-width: 2000px) {

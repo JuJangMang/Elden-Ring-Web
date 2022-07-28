@@ -1,16 +1,31 @@
-.app__shop {
+.app__wrapper {
     flex-direction: column;
+}
+
+.shop_img img{
     position: relative;
+    flex: 1;
+    width: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-16%, 0%);
+  
+    
 }
 
 .app__shop-bottom img {
-    position: absolute;
-    margin-top: 2rem;
+    position: relative;
+    bottom: 0;
 }
 
 .app__shop-content button {
-    margin-top: 0rem;
+    top: 0;
+    margin-top: 1rem;
+    margin-bottom: 2rem; 
 }
+
+
 
 @media screen and (min-width: 1900px) {
     
