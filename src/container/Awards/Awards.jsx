@@ -17,9 +17,7 @@ const Awards = () => (
       <div className="app__awards-bottom flex__center" >
         <img src={images.border} alt="border" />
       </div>
-      
-
-        
+              
     </div>
   </div>
 );
