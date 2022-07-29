@@ -38,8 +38,8 @@ const KeyFeatures = () => (
             foreboding castles and other sites of grandeur on a scale never seen before in a FromSoftware title.</p>
         </div> 
       </div>
-
-      <div className="app__keyfeatures-bottom flex__center" >
+    </div>
+    <div className="app__keyfeatures-bottom" >
           <img src={images.border} alt="border" />
     </div>
     </div>
