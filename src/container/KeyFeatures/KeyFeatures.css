@@ -60,8 +60,15 @@
         top: 0;
      }
 
+     .app__wrapper_img2 img {
+        margin-top: 10rem;
+     }
+
      .app__keyfeatures-bottom img {
-        width: 118%;
+        position: absolute;
+        left: 0px;
+        margin-top: -1rem;
+        width: 100%;
      }
 
      .key__features-1 {
@@ -84,8 +91,20 @@
         top: 0;
      }
 
+     .app__wrapper_img2 img {
+        margin-top: 4rem;
+     }
+
      .app__keyfeatures-bottom img {
-        width: 118%;
+        position: absolute;
+        width: 100%;
+        left: 0px;
+        margin-top: 2rem;
+        
+     }
+
+     .app__keyfeatures-h2 {
+        font-size: 65px;
      }
 
      .key__features-1 {

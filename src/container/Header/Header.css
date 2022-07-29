@@ -2,6 +2,9 @@
     position: relative;
     z-index: 1;
 }
+.app__wrapper_info {
+    margin-bottom: 10rem;
+}
 
 .app__header-h1 {
     font-family: var(--font-base);
@@ -20,7 +23,7 @@
 
 .app__header-bottom img {
     position: absolute;
-    bottom: -40px;
+    bottom: 0;
     left: 15%;
 }
 
@@ -32,6 +35,10 @@
     .app__header {
         flex-direction: column;
         text-align: left;
+    }
+
+    .app__wrapper_info {
+        margin-bottom: 5rem;
     }
 
     .app__header-h1 {
@@ -50,6 +57,10 @@
     .app__header {
         flex-direction: column;
         text-align: left;
+    }
+
+    .app__wrapper_info {
+        margin-bottom: 2rem;
     }
 
     .app__header-h1 {
