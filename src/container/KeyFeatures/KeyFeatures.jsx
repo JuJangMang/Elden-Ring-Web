@@ -42,6 +42,8 @@ const KeyFeatures = () => (
     <div className="app__keyfeatures-bottom" >
           <img src={images.border} alt="border" />
     </div>
+    </div>
+    
   </div>
 );
 
