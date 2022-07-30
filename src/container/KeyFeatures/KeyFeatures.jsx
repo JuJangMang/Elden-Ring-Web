@@ -28,7 +28,7 @@ const KeyFeatures = () => (
       <div className="app__wrapper_img2">
           <img src={images.explore} alt="explore" />
         </div>
-        <div className="container">
+        <div className="key__features-2-info">
           <h1 className="app__keyfeatures-h2">World Exploration in the Lands Between</h1>
           <p className="p__cormorant" style={{ margin: '2rem 0', color: '#DCCA87' }}>ELDEN RING features vast fantastical landscapes and shadowy, 
             complex dungeons that are connected seamlessly.
